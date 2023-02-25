@@ -1,7 +1,6 @@
 import React from 'react';
 import FeedReview from './FeedReview';
 import * as FD from './FeedDetailStyle';
-import FeedDetailRight from './FeedDetailRight';
 
 export default function FeedDetailMain() {
   return (

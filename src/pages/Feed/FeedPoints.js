@@ -20,11 +20,11 @@ const FeedPoints = ({ item, idx }) => {
         setAllProducts(data.allProducts);
       });
   }, []);
+
   return (
     <>
       <I.Point
         onMouseOver={mouseOn}
-        // onMouseLeave={mouseOff}
         key={idx}
         style={{ left: item.point_x, top: item.point_y }}
       >
@@ -32,7 +32,6 @@ const FeedPoints = ({ item, idx }) => {
       </I.Point>
       {modalOn && (
         <Modal
-          onMouseOver={mouseOn}
           mouseOff={mouseOff}
           item={item}
           allProducts={allProducts}

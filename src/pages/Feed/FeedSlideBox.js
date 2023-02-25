@@ -15,7 +15,6 @@ const FeedSlideBox = ({ postContent }) => {
     slidesToScroll: 1,
   };
 
-  // console.log(postContent[0].points);
   return (
     <div>
       <I.ImgList>

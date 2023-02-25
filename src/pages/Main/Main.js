@@ -16,9 +16,7 @@ function Main() {
 
   return (
     <M.MainContainer>
-      <M.MainImgBox>
-        <img src="/images/123.png" alt="그림" />
-      </M.MainImgBox>
+      <M.MainImgBox />
       <div>
         <M.TodayItemBox>
           <M.ListTitle>오늘의 상품</M.ListTitle>

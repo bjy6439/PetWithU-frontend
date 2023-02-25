@@ -13,33 +13,32 @@ function Feed() {
   const [users, setUsers] = useState([]);
   const [totalNum, setTotalNum] = useState([]);
 
-  useEffect(() => {
-    fetch('http://3.38.247.226:3000/community', {
-      headers: {
-        Authorization:
-          'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY3NTQyNzg0OX0.eJCOyCmFgkweT5kvq3YGVQU2q7nGSSIJ-4TuJw07HNQ',
-      },
-    })
-      .then(res => res.json())
-      .then(data => {
-        setFeeds(data.postList.postList);
-      });
-  }, []);
+  // useEffect(() => { 통신시 사용할 api
+  //   fetch('http://3.38.247.226:3000/community', {
+  //     headers: {
+  //       Authorization:
+  //         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY3NTQyNzg0OX0.eJCOyCmFgkweT5kvq3YGVQU2q7nGSSIJ-4TuJw07HNQ',
+  //     },
+  //   })
+  //     .then(res => res.json())
+  //     .then(data => {
+  //       setFeeds(data.postList.postList);
+  //     });
+  // }, []);
 
   useEffect(() => {
-    fetch('/data/rightData.json')
+    fetch('/data/feedData.json')
       .then(res => res.json())
       .then(data => {
-        setUsers(data);
-        setTotalNum(data.totalCount);
+        setFeeds(data.postList);
       });
   }, []);
 
   const totalPage = Math.ceil(totalNum / 6);
 
-  useEffect(() => {
-    inView && setPage(page + 1);
-  }, [inView]);
+  // useEffect(() => {
+  //   inView && setPage(page + 1);
+  // }, [inView]);
 
   return (
     <F.FeedContainer>

@@ -86,9 +86,9 @@ function Nav() {
 }
 
 const TOKEN_MY_LIST = [
-  { name: 'dd', icon: <BiBookmark /> },
-  { name: 'aa', icon: <MdNotificationsNone /> },
-  { name: 'cc', icon: <BsCart2 /> },
+  { name: 'bookmark', icon: <BiBookmark /> },
+  { name: 'notification', icon: <MdNotificationsNone /> },
+  { name: 'cart', icon: <BsCart2 /> },
 ];
 
 const MENU_LIST = [

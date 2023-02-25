@@ -9,6 +9,7 @@ export const ModalContainer = styled.div`
   top: 0;
   left: 0;
   border-radius: 5px;
+  z-index: 100;
 `;
 
 export const ModalWrap = styled.ul`

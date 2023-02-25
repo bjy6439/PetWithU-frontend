@@ -35,7 +35,7 @@ export const NavMenu = styled.button`
 `;
 
 export const InputBox = styled.input`
-  width: 300px;
+  width: 200px;
   height: 40px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: ${theme.radius};

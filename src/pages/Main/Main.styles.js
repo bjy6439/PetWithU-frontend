@@ -1,24 +1,21 @@
 import styled from 'styled-components';
-import theme from '../../styles/theme';
 
-export const MainContainer = styled.div`
-  width: 100vw;
-`;
+export const MainContainer = styled.div``;
 export const MainImgBox = styled.div`
   width: 100vw;
-  height: 500px;
+  height: 300px;
+  background-image: url('/images/main.png');
   background-size: cover;
+  background-repeat: no-repeat;
   img {
-    width: 100%;
-    height: 100%;
   }
 `;
 
 export const TodayItemBox = styled.div`
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  padding: 40px 20px 0px 20px;
+  width: 90vw;
+  padding: 40px 0px 0px 40px;
 `;
 
 export const TodayItemWrap = styled.div`
@@ -30,7 +27,7 @@ export const TodayItemWrap = styled.div`
 `;
 
 export const ListTitle = styled.p`
-  font-size: 40px;
+  font-size: 20px;
   margin-bottom: 50px;
 `;
 
@@ -41,44 +38,47 @@ export const ItemList = styled.ul`
 `;
 
 export const AllItemBox = styled.div`
-  width: 100vw;
-  padding: 40px 60px 0px 60px;
+  width: 90vw;
+  padding: 40px 0px 0px 60px;
 `;
 
 export const AllItemListWrap = styled.div`
-  padding: 0px 100px 0px 100px;
+  width: 100vw;
+  padding: 0px 30px 0px 30px;
 `;
 
 export const TodayItem = styled.li`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 400px;
+  align-items: flex-start;
+  width: 200px;
   padding: 10px;
-  margin: 0px 20px 30px 20px;
+  margin: 0px 10px 0px 10px;
 `;
 
 export const AllItem = styled.li`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 300px;
+  width: 200px;
   padding: 10px;
   margin: 0px 20px 30px 20px;
 `;
 
 export const ItemImg = styled.img`
-  width: 280px;
-  height: 280px;
-  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
   border: 1px solid black;
   border-radius: 10px;
 `;
 
 export const ItemTitle = styled.p`
-  font-size: 30px;
+  width: 200px;
+  font-size: 14px;
+  margin-bottom: 10px;
 `;
 export const ItemPrice = styled.p`
-  font-size: 25px;
+  font-size: 14px;
 `;

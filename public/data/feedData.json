@@ -16,16 +16,16 @@
         {
           "category_id": 3,
           "content": "강아지 미용 샵 추천해주세요",
-          "image_url": "https://user-images.githubusercontent.com/53294075/216764446-ddffa4d6-3e5d-48ad-93a0-0a41bff2d3d4.png",
+          "image_url": "https://user-images.githubusercontent.com/109052911/217470633-3dfc98c0-a833-46e6-939b-88eac23e7a5e.jpg",
           "points": [
             {
-              "point_x": 10,
-              "point_y": 10,
+              "point_x": 11,
+              "point_y": 22,
               "product_id": 1
             },
             {
-              "point_x": 10,
-              "point_y": 10,
+              "point_x": 33,
+              "point_y": 44,
               "product_id": 2
             }
           ],
@@ -37,17 +37,35 @@
           "image_url": "https://user-images.githubusercontent.com/53294075/216764446-ddffa4d6-3e5d-48ad-93a0-0a41bff2d3d4.png",
           "points": [
             {
-              "point_x": 10,
+              "point_x": 55,
               "point_y": 10,
-              "product_id": 3
+              "product_id": 4
             },
             {
-              "point_x": 10,
-              "point_y": 10,
+              "point_x": 66,
+              "point_y": 120,
               "product_id": 4
             }
           ],
           "hashtags": ["강아지", "멜크", "배찌그램"]
+        },
+        {
+          "category_id": 3,
+          "content": "강아지 미용 샵 추천해주세요",
+          "image_url": "https://user-images.githubusercontent.com/109052911/217470633-3dfc98c0-a833-46e6-939b-88eac23e7a5e.jpg",
+          "points": [
+            {
+              "point_x": 77,
+              "point_y": 88,
+              "product_id": 4
+            },
+            {
+              "point_x": 99,
+              "point_y": 12,
+              "product_id": 4
+            }
+          ],
+          "hashtags": ["강아지", "강쥐스타그램", "멍스타그램"]
         }
       ],
       "reviews": [
@@ -93,14 +111,14 @@
           "image_url": "https://user-images.githubusercontent.com/53294075/216764446-ddffa4d6-3e5d-48ad-93a0-0a41bff2d3d4.png",
           "points": [
             {
-              "point_x": 10,
-              "point_y": 10,
+              "point_x": 21,
+              "point_y": 21,
               "product_id": 1
             },
             {
-              "point_x": 10,
-              "point_y": 10,
-              "product_id": 2
+              "point_x": 31,
+              "point_y": 31,
+              "product_id": 1
             }
           ],
           "hashtags": ["강아지", "강쥐스타그램", "멍스타그램"]
@@ -111,8 +129,8 @@
           "image_url": "https://user-images.githubusercontent.com/53294075/216764446-ddffa4d6-3e5d-48ad-93a0-0a41bff2d3d4.png",
           "points": [
             {
-              "point_x": 10,
-              "point_y": 10,
+              "point_x": 41,
+              "point_y": 41,
               "product_id": 3
             },
             {
